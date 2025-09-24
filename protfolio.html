@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sadman | protfolio</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #0f0f0f;
+      color: #e0e0e0;
+    }
+
+    /* Hover movement effect */
+h1, .section-title, a, .skill {
+  transition: transform 0.3s ease;
+  display: inline-block;
+}
+
+h1:hover,
+.section-title:hover,
+a:hover,
+.skill:hover {
+  transform: translateX(5px); /* Moves text slightly to the right */
+}
+
+@keyframes bounce {
+  0%   { transform: translateY(0); }
+  50%  { transform: translateY(-5px); }
+  100% { transform: translateY(0); }
+}
+
+h2 {
+  transition: transform 0.3s ease;
+  display: inline-block;
+}
+h2:hover {
+  transform: translateX(5px);
+}
+
+.skill:hover {
+  animation: bounce 0.4s ease;
+}
+    header {
+      background-color: #1a1a1a;
+      padding: 2rem;
+      text-align: center;
+    }
+    h1 {
+      margin: 0;
+      font-size: 2.5rem;
+      color: #00ffe1;
+    }
+       h2{
+      margin: 0;
+      font-size: 2.5rem;
+      color: #00ffe1;
+    }
+    p.tagline {
+      font-size: 1.2rem;
+      color: #aaa;
+    }
+    section {
+      padding: 2rem;
+      max-width: 800px;
+      
+      margin: auto;
+    }
+    .section-title {
+      font-size: 1.5rem;
+      color: #00ffe1;
+      margin-bottom: 1rem;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+    li {
+      margin-bottom: 0.5rem;
+    }
+    .skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+.skill {
+  background-color: #1a1a1a;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  color: #00ffe1;
+  font-weight: bold;
+}
+header img {
+  border-radius: 50%;
+  margin-top: 1rem;
+
+}
+
+nav a:hover {
+  color: #00ffe1;
+  text-shadow: 0 0 5px #00ffe1;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  background-color: #1a1a1a;
+  padding: 1rem 0;
+  margin-bottom: 2rem;
+}
+
+nav a {
+  color: #e0e0e0;
+  text-decoration: none;
+  font-weight: bold;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+nav a:hover {
+  transform: translateY(-3px);
+  color: #00ffe1;
+  text-shadow: 0 0 5px #00ffe1;
+}
+nav {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background-color: #1a1a1a;
+      font-size: 0.9rem;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+  <header>
+
+   <img src ="https://userpic.codeforces.org/4398203/title/573b6fea0cc5de89.jpg"height="100" width="100"alt="sadman">
+
+
+   <br>
+    <h1>Sadman Shahriar Shawon</h1>
+  
+    <p class="tagline"><b>Student of IIUC||Executive FFIIUC</b></p>
+  </header>
+
+ <nav>
+  <a href="#about">About Me</a>
+  <a href="#profile">Profile</a>
+  <a href="#skills">Skills</a>
+  <a href="#education">Education</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+
+<Main>
+
+  <section id="about">
+    <div class="section-title">About Me</div>
+    <p>Hello everyone, I’m Sadman. I’m really excited to be part of this spoken English class.
+I’m originally from Fatickchari, but now I live in Oxygen. I’m currently studying Computer Science and Engineering at IIUC.
+</p>
+  </section>
+
+  <section id="profile">
+    <div class="section-title">profile</div>
+    <ul>
+        <li>
+        <p><a href="https://github.com/shawon243196"target="_main">github</a></p>
+        </li>
+        <li>
+        <p><a href="https://codeforces.com/profile/C243196"target="_main">codeforces</a></p>
+        </li>
+        <li>
+            <a href="https://www.facebook.com/mohammad.sadman.shawon"target="_main">facebook</a>
+        </li>
+    </ul>
+  </section>
+  <!-- <section>
+    <div class="section-title">Skills</div>
+    <ul>
+      <li>⚡ Minimalist, tech-inspired team branding</li>
+      <li>🧠 Precision in formatting and spelling</li>
+      <li>🎯 Iterative design with feedback loops</li>
+      <li>📄 Professional CV and document editing</li>
+      <li>📚 Academic routine analysis and correction</li>
+    </ul>
+  </section> -->
+<section id ="skills">
+    <h2>skills</h2>
+<div class="skills">
+      <div class="skill">C / C++</div>
+      <div class="skill">java</div>
+      <div class="skill">HTML </div>
+      <div class="skill">Problem Solving</div>
+      <div class="skill">SQL &amp; Databases</div>
+      <div class="skill">Git &amp; GitHub</div>
+    </div>
+</section>
+  <section id="Projects">
+    <div class="section-title">Projects</div>
+    <ul>
+      <li> Reboot FC branding: logo, motto, squad visuals</li>
+      <li> Shop management system<a href="https://github.com/shawon243196/project-in-c-"target="_main">link</a></li>
+
+      <!-- <li> Realistic photo editing for emotional impact</li> -->
+      <li> Spoken English intro for confident presentation</li>
+
+    </ul>
+  </section>
+  <section id="education">
+    <h2>Education</h2>
+    <p><strong>Bachelor in Computer Science &amp; Engineering (CSE)</strong><br>
+    <a href="https://www.iiuc.ac.bd/" target="_main"><b>Internationl Islamic University Chittagong</b></a></p>
+    <br>
+    <p><b>Higher Secondary Certificate (HSC)</b><br> 
+    [Islamia University college], [Chittagong]</p>
+   <p><b>Secondary School Certificate (SSC) </b><br>
+   [Nazirhat collegiate High School], [Chittagong] </p> 
+   </section>
+
+  <section id="contact">
+    <div class="section-title">Contact</div>
+    <p>Email: sadmnashawon542@gmail.com</p>
+    <p>Number:01829570328</p>
+  </section>
+</Main>
+  <footer>
+    &copy; 2025 Sadman | Designed with precision and passion
+  </footer>
+</body>
+</html>
